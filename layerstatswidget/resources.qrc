@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/LayerStatsWidget" >
+    <qresource prefix="/LayerStatsWidget">
         <file>icon.png</file>
     </qresource>
 </RCC>

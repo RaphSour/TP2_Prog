@@ -32,5 +32,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     :type iface: QgsInterface
     """
     #
-    from .LayerStatsWidget import LayerStatsWidget
+    from .main import LayerStatsWidget
     return LayerStatsWidget(iface)
