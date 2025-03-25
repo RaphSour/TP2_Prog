@@ -2,7 +2,7 @@
 
 ## Description
 
-**LayerStatsWidget** est un plugin QGIS développé dans le cadre du cours GMQ580 – Géo-Informatique II. Ce widget s’intègre comme un panneau dockable dans QGIS et permet d’afficher en temps réel des statistiques de base sur la couche vectorielle active : nom, type de géométrie, nombre d'entités, surface totale (pour les polygones) ou longueur totale (pour les lignes).
+**LayerStatsWidget** est un plugin QGIS développé dans le cadre du cours GMQ580 – Géo-Informatique II. Ce widget s’intègre comme un panneau dockable dans QGIS et permet d’afficher en temps réel des statistiques de base sur la couche vectorielle active : nom, type de géométrie, nombre d'entités, projection de la couche, surface totale (pour les polygones) ou longueur totale (pour les lignes).
 
 ---
 
