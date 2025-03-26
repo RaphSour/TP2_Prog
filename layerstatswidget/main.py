@@ -1,7 +1,9 @@
+#Importation des plugin nécessaires pour le plugin
 from PyQt5.QtWidgets import QAction, QDockWidget
 from qgis.PyQt.QtCore import Qt
 from .LayerStatsWidget import LayerStatsWidgetPanel
 
+#Création de la classe LayerStatsWidget
 class LayerStatsWidget:
     def __init__(self, iface):
         """Initialisation du plugin."""
@@ -24,3 +26,4 @@ class LayerStatsWidget:
             self.dock_widget = LayerStatsWidgetPanel(self.iface)
             self.iface.addDockWidget(Qt.RightDockWidgetArea, self.dock_widget)
         self.dock_widget.show()
+        

@@ -35,6 +35,7 @@ class LayerStatsWidgetPanel(QDockWidget):
         self.iface.currentLayerChanged.connect(self.update_layer_stats)
         self.update_layer_stats()  # Mise à jour initiale
 
+    # Fonction pour mettre à jour les statistiques de la couche active
     def update_layer_stats(self):
         """Mise à jour des statistiques de la couche active."""
         layer = self.iface.activeLayer()
